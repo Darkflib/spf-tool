@@ -2,6 +2,17 @@
 
 This tool is used to check the SPF (Sender Policy Framework) record for a domain.
 
+## Install
+
+Clone it.
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python spf-tool.py mikeisawesome.foo
+```
+
 ```
 $ python spf-tool.py thetimes.com
 2024-05-14 13:37:54,243 - INFO - Querying for SPF records of domain thetimes.com
